@@ -73,3 +73,19 @@ ul li {
   font-size: 18px;
   font-weight: 400;
 }
+
+/* main style */
+
+main {
+  max-width: 1140px;
+}
+
+.about {
+  width: 827px;
+  height: 288px;
+  margin-left: 387px;
+}
+
+.section-title {
+  align-items: center;
+}
