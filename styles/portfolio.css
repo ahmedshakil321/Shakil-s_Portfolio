@@ -87,6 +87,9 @@ main {
 }
 
 .section-title {
-  justify-content: center;
-  align-items: center;
+}
+
+.service {
+  width: 909px;
+  margin-left: 387px;
 }
