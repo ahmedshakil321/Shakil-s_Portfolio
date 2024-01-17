@@ -14,7 +14,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 210px;
+  padding: 70px 250px;
 }
 
 .nav-title {
