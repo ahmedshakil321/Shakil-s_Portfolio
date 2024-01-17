@@ -78,18 +78,120 @@ ul li {
 
 main {
   max-width: 1140px;
+  margin: 0 auto;
 }
 
 .about {
   width: 827px;
   height: 288px;
-  margin-left: 387px;
+  margin-left: 15px;
+  padding: 110px 130px;
+  text-align: center;
 }
 
 .section-title {
+  font-weight: 700px;
+  font-size: 35px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
+.section-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-title {
+  font-size: 17px;
+  font-weight: bold;
+}
 .service {
-  width: 909px;
-  margin-left: 387px;
+  width: 827px;
+  height: 288px;
+  margin-left: 200px;
+  padding: 130px 150px;
+  text-align: center;
+}
+
+/* Technology section styles */
+.technologies {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Resume section style */
+.resume-title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.resume-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.education {
+  margin-right: 15px;
+}
+.item-name {
+  margin: 10px 0px;
+}
+
+.item-title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.item-subtitle {
+  margin-bottom: 15px;
+}
+
+.item-description {
+  margin-bottom: 20px;
+}
+
+.break-line {
+  margin-bottom: 30px;
+}
+
+#resu-btn {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Contact styles */
+.contact {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-evenly;
+  background-color: #fff8f3;
+  padding: 10px;
+}
+
+.contact-info {
+  margin-right: 15px;
+}
+
+.section-description {
+  margin-bottom: 20px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.contact input,
+textarea {
+  gap: 20px;
 }
